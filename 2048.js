@@ -969,7 +969,7 @@ numberOfGenerations = 200;
 numberOfMaxMoves = 100;
 var populations = [];
 
-nn = new NeuralNet([inputSize, hiddenSize, outputSize]);
+nn = new NeuralNet([inputSize, hiddenSize, hiddenSize, outputSize]);
 
 geneticGame = new GameGenetic(nn, populationSize)
 
